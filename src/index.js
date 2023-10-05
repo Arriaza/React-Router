@@ -6,9 +6,9 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-{/* se pasa un componente de alto orden, que se encarga de almacenar todo el estado de nuestra
-navegación y conectar los componentes que se van a utilizar de react-router para que funcionen de
-manera correcta, (este componente almacena el estado de la navegación) */}
+{/* a high-order component is passed, which is responsible for storing all the state of our
+navigation and connect the components that are going to be used from react-router so that they work correctly
+correct way, (this component stores the navigation state) */}
     <BrowserRouter>
       <App />
     </BrowserRouter>
@@ -17,4 +17,3 @@ manera correcta, (este componente almacena el estado de la navegación) */}
 );
 
 reportWebVitals();
-
